@@ -47,6 +47,79 @@
 </head>
 
 <body>
+	<script type="application/ld+json">
+			{
+				"@context": "https://schema.org",
+				"@type": "Restaurant",
+				"@id": "https://argeducational.com",
+				"name": "ARG Educational Consulting",
+				"description": "ARG Educational Consulting, LLC (ARG) is an independently owned company with over 10 years of experience in
+				education. Our company is dedicated to providing educational, psychological, and social services to all ages of
+				individuals. We are a service provider who has bilingual professional in a variety of languages including Turkish,Spanish,English,
+				and Arabic. ARG is committed to offering students the ability to reach
+				their ultimate potential.",
+				"url": "https://argeducational.com",
+				"image": [
+					"https://argeducational.com/img/banner-bg.jpg",
+					"https://argeducational.com/img/arg.png",
+					"https://example.com/photos/16x9/photo.jpg"
+				 ],
+				"address" :{
+					"@type": "PostalAddress",
+					"streetAddress": "Paterson, NJ, 07502 272 Elberon Ave",
+					"addressLocality": "New Jersey",
+					"addressRegion": "NJ",
+					"postalCode": "07502",
+					"addressCountry": "US"
+				},
+				"review": {
+					"@type": "Review",
+					"reviewRating": {
+						"@type": "Rating",
+						"ratingValue": "4",
+						"bestRating": "5"
+					},
+					"author": {
+						"@type": "Person",
+						"name": "Yusuf Demir, Bilal Şen"
+					}
+				},
+				"geo":{
+					"@type": "GeoCoordinates",
+					"latitude": 40.917517,
+					"longitude": -74.203807
+				},
+				"telephone": "(862) 262 5018",
+				"potentialAction": {
+					"@type": "OrderAction",
+					"target": {
+						"@type": "EntryPoint",
+						"urlTemplate": "https://www.example.com/daves-cafe-new-york",
+						"inLanguage": "en-US",
+						"actionPlatform": [
+							"http://schema.org/DesktopWebPlatform",
+							"http://schema.org/IOSPlatform",
+							"http://schema.org/AndroidPlatform"
+						]
+					},
+					"deliveryMethod": [
+						"http://purl.org/goodrelations/v1#DeliveryModePickUp",
+						"http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+					],
+					"priceSpecification": {
+						"@type": "DeliveryChargeSpecification",
+						"appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+						"priceCurrency": "USD",
+						"price": 0.0,
+						"eligibleTransactionVolume": {
+							"@type": "PriceSpecification",
+							"priceCurrency": "USD",
+							"price": 12.00
+						}
+					}
+				}
+			}
+		</script>
 	<header id="header" id="home">
 		<div class="header-top">
 			<div class="container">
@@ -96,7 +169,8 @@
 					<h1 class="text-white">
 						Human Resources
 					</h1>
-					<p class="text-white link-nav"><a href="index.html">Home </a> <span class="lnr lnr-arrow-right"></span> <a href="hr.html">
+					<p class="text-white link-nav"><a href="index.html">Home </a> <span class="lnr lnr-arrow-right"></span> <a
+							href="hr.html">
 							Human Resources</a></p>
 				</div>
 			</div>
@@ -119,9 +193,12 @@
 						department.
 					</p>
 					<p>
-						Other functions include posting job vacancies for the recruitment, screening, and hiring of evaluators, service
-						providers, and substitute teachers; creating and maintaining current job descriptions; documenting and storing
-						confidential Personnel Records, verifying employment inquiries; distributing information on FMLA Laws, NJ Labor
+						Other functions include posting job vacancies for the recruitment, screening, and hiring of evaluators,
+						service
+						providers, and substitute teachers; creating and maintaining current job descriptions; documenting and
+						storing
+						confidential Personnel Records, verifying employment inquiries; distributing information on FMLA Laws, NJ
+						Labor
 						Laws, and on medical leave, and acting as a depository for employment applications, criminal history review
 						clearance,staff’s certifications and advance degree records.
 					</p>
@@ -160,9 +237,12 @@
 					<div class="single-footer-widget">
 						<h6>About ARG Educational Consulting</h6>
 						<p>
-							ARG staff creates a warm, supportive atmosphere that fosters friendships, growth, and love of learning. ARG has
-							been serving the community with the highest quality of education and care for many years. We offer different
-							hours of operation and age groups. Close relationships and strong communication between staff and parents will
+							ARG staff creates a warm, supportive atmosphere that fosters friendships, growth, and love of learning.
+							ARG has
+							been serving the community with the highest quality of education and care for many years. We offer
+							different
+							hours of operation and age groups. Close relationships and strong communication between staff and parents
+							will
 							establish a positive school experience.
 						</p>
 					</div>
@@ -198,11 +278,12 @@
 							Subscribe to our newsletter and follow the innovations.
 						</p>
 						<div id="mc_embed_signup">
-							<form target="_blank" novalidate="true" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
-							 method="get" class="subscription relative">
+							<form target="_blank" novalidate="true"
+								action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
+								method="get" class="subscription relative">
 								<div class="input-group d-flex flex-row">
-									<input name="EMAIL" placeholder="Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address '"
-									 required="" type="email">
+									<input name="EMAIL" placeholder="Email Address" onfocus="this.placeholder = ''"
+										onblur="this.placeholder = 'Email Address '" required="" type="email">
 									<div style="position: absolute; left: -5000px;">
 										<input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
 									</div>
@@ -220,7 +301,7 @@
 					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 					Copyright &copy;
 					<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i
-					 class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+						class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
 					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 					and Photos by <a href="http://www.freepik.com"> Freepik</a>
 
@@ -235,10 +316,12 @@
 	<!-- End footer Area -->
 
 	<script src="js/vendor/jquery-2.2.4.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-	 crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+		crossorigin="anonymous"></script>
 	<script src="js/vendor/bootstrap.min.js"></script>
-	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+	<script type="text/javascript"
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
 	<script src="js/easing.min.js"></script>
 	<script src="js/hoverIntent.js"></script>
 	<script src="js/superfish.min.js"></script>
