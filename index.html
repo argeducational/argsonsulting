@@ -49,6 +49,79 @@
 </head>
 
 <body>
+		<script type="application/ld+json">
+			{
+				"@context": "https://schema.org",
+				"@type": "Restaurant",
+				"@id": "https://argeducational.com",
+				"name": "ARG Educational Consulting",
+				"description": "ARG Educational Consulting, LLC (ARG) is an independently owned company with over 10 years of experience in
+				education. Our company is dedicated to providing educational, psychological, and social services to all ages of
+				individuals. We are a service provider who has bilingual professional in a variety of languages including Turkish,Spanish,English,
+				and Arabic. ARG is committed to offering students the ability to reach
+				their ultimate potential.",
+				"url": "https://argeducational.com",
+				"image": [
+					"https://argeducational.com/img/banner-bg.jpg",
+					"https://argeducational.com/img/arg.png",
+					"https://example.com/photos/16x9/photo.jpg"
+				 ],
+				"address" :{
+					"@type": "PostalAddress",
+					"streetAddress": "Paterson, NJ, 07502 272 Elberon Ave",
+					"addressLocality": "New Jersey",
+					"addressRegion": "NJ",
+					"postalCode": "07502",
+					"addressCountry": "US"
+				},
+				"review": {
+					"@type": "Review",
+					"reviewRating": {
+						"@type": "Rating",
+						"ratingValue": "4",
+						"bestRating": "5"
+					},
+					"author": {
+						"@type": "Person",
+						"name": "Yusuf Demir, Bilal Şen"
+					}
+				},
+				"geo":{
+					"@type": "GeoCoordinates",
+					"latitude": 40.917517,
+					"longitude": -74.203807
+				},
+				"telephone": "(862) 262 5018",
+				"potentialAction": {
+					"@type": "OrderAction",
+					"target": {
+						"@type": "EntryPoint",
+						"urlTemplate": "https://www.example.com/daves-cafe-new-york",
+						"inLanguage": "en-US",
+						"actionPlatform": [
+							"http://schema.org/DesktopWebPlatform",
+							"http://schema.org/IOSPlatform",
+							"http://schema.org/AndroidPlatform"
+						]
+					},
+					"deliveryMethod": [
+						"http://purl.org/goodrelations/v1#DeliveryModePickUp",
+						"http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+					],
+					"priceSpecification": {
+						"@type": "DeliveryChargeSpecification",
+						"appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+						"priceCurrency": "USD",
+						"price": 0.0,
+						"eligibleTransactionVolume": {
+							"@type": "PriceSpecification",
+							"priceCurrency": "USD",
+							"price": 12.00
+						}
+					}
+				}
+			}
+			</script>
 	<header id="header" id="home">
 		<div class="header-top">
 			<div class="container">
