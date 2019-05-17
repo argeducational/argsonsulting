@@ -1,74 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+  <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 
-<url>
-  <loc>https://argeducational.com/</loc>
-  <lastmod>2019-03-30T13:22:51+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://argeducational.com/index.html</loc>
-  <lastmod>2019-03-30T13:22:51+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://argeducational.com/about.html</loc>
-  <lastmod>2019-03-30T13:22:51+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://argeducational.com/faq.html</loc>
-  <lastmod>2019-03-30T13:22:51+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://argeducational.com/services.html</loc>
-  <lastmod>2019-03-30T13:22:51+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://argeducational.com/workshops.html</loc>
-  <lastmod>2019-03-30T13:22:51+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://argeducational.com/hr.html</loc>
-  <lastmod>2019-03-30T13:22:51+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://argeducational.com/accomodations.html</loc>
-  <lastmod>2019-03-30T13:22:51+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://argeducational.com/resources.html</loc>
-  <lastmod>2019-03-30T13:22:51+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://argeducational.com/contact.html</loc>
-  <lastmod>2019-03-30T13:22:51+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-
-<url>
-  <loc>https://argeducational.com/img/rich_card_image.jpeg</loc>
-  <lastmod>2019-03-30T13:22:51+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-
-<url>
-  <loc>https://argeducational.com/img/arg.png</loc>
-  <lastmod>2019-03-30T13:22:51+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
+  <url>
+    <loc>https://argeducational.com/</loc>
+    <image:image>
+      <image:loc>https://argeducational.com/img/rich_card_image.jpeg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://argeducational.com/img/arg.png</image:loc>
+    </image:image>
+    <lastmod>2019-05-16T12:48:43+00:00</lastmod>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://argeducational.com/index.html</loc>
+    <lastmod>2019-05-16T12:48:43+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://argeducational.com/about.html</loc>
+    <lastmod>2019-05-16T12:48:43+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://argeducational.com/faq.html</loc>
+    <lastmod>2019-05-16T12:48:43+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://argeducational.com/services.html</loc>
+    <lastmod>2019-05-16T12:48:44+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://argeducational.com/workshops.html</loc>
+    <lastmod>2019-05-16T12:48:44+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://argeducational.com/hr.html</loc>
+    <lastmod>2019-05-16T12:48:43+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://argeducational.com/accomodations.html</loc>
+    <lastmod>2019-05-16T12:48:43+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://argeducational.com/resources.html</loc>
+    <lastmod>2019-05-16T12:48:44+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://argeducational.com/contact.html</loc>
+    <lastmod>2019-05-16T12:48:43+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
 
 
 </urlset>
