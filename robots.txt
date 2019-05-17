@@ -1,4 +1,7 @@
-User-Agent: *
+User-agent: Googlebot
+Disallow:
+User-agent: Googlebot-image
+Disallow:
 Allow: /img/*.jpeg
 Allow: /img/*.jpg
 Allow: /img/*.png
